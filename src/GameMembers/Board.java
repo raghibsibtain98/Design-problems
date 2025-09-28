@@ -1,6 +1,5 @@
 package GameMembers;
 
-import GameMembers.BoardMembers.Cell;
 import GameMembers.BoardMembers.Ladder;
 import GameMembers.BoardMembers.Snake;
 
@@ -10,9 +9,9 @@ import java.util.Map;
 
 public class Board {
 
-    private int size;
-    private Map<Integer,Snake> snakeMap;
-    private Map<Integer,Ladder> ladderMap;
+    private final int size;
+    private final Map<Integer,Snake> snakeMap;
+    private final Map<Integer,Ladder> ladderMap;
 
     public Board(int size, List<Snake> snakeList, List<Ladder> ladderList) {
         this.size = size;
@@ -40,7 +39,6 @@ public class Board {
         }
         return finalPosition;
     }
-
     public int getSize() {
         return this.size;
     }
