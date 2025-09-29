@@ -1,0 +1,53 @@
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.idea/                    # IntelliJ project files (personal workspace)
+*.iml                     # module files
+
+# === Build / output ===
+/target/                  # Maven build output
+/build/                   # Gradle build output
+/out/                     # IntelliJ out
+*.class
+
+# === Logs / temp ===
+*.log
+*.tmp
+
+# === Maven wrapper (KEEP) & local repo caches (ignore) ===
+# keep: mvnw mvnw.cmd .mvn/wrapper
+mvnw
+mvnw.cmd
+# ignore local .m2 repo (do not commit)
+/.m2/
+# ignore eclipse files
+.classpath
+.project
+.settings/
+
+# === Gradle wrapper (KEEP wrapper files only) ===
+/.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+gradle-app.setting
+/build/
+
+# === Secrets / Keys ===
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+secret.properties
+application-*.properties
+
+# === Misc ===
+*.jar
+*.war
+*.ear
+*.log
+tmp/
+*.swp
