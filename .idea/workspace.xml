@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcb95c28-4231-4946-96f3-3ed9a6e4a9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bcb95c28-4231-4946-96f3-3ed9a6e4a9cb" name="Changes" comment="removing class files">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759173595503</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removing class files">
+      <option name="closed" value="true" />
+      <created>1759176379089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759176379089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for Snake and Ladder" />
     <MESSAGE value="shelving" />
-    <option name="LAST_COMMIT_MESSAGE" value="shelving" />
+    <MESSAGE value="removing class files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing class files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
