@@ -25,6 +25,7 @@ public class Board {
         }
     }
 
+
     public int getNewPositionOnBoard(int currentPosition, int diceRollCount){
         final int tempPosition = currentPosition + diceRollCount;
         int finalPosition = tempPosition;
