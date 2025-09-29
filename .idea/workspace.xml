@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcb95c28-4231-4946-96f3-3ed9a6e4a9cb" name="Changes" comment="Initial commit for Snake and Ladder">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="bcb95c28-4231-4946-96f3-3ed9a6e4a9cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,13 @@
         <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_COMMIT" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -50,7 +55,8 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -121,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for Snake and Ladder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for Snake and Ladder" />
+    <MESSAGE value="shelving" />
+    <option name="LAST_COMMIT_MESSAGE" value="shelving" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
