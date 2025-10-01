@@ -1,7 +1,6 @@
-import GameMembers.Board;
-import GameMembers.Dice;
-import GameMembers.Player;
-import Utils.BoardUtils;
+package DesignSnakeLadder.GameMembers;
+
+import DesignSnakeLadder.GameMembers.Utils.BoardUtils;
 
 import java.util.LinkedList;
 import java.util.Queue;

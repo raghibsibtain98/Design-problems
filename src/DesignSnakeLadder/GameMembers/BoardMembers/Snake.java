@@ -1,4 +1,4 @@
-package GameMembers.BoardMembers;
+package DesignSnakeLadder.GameMembers.BoardMembers;
 
 public class Snake implements Cell{
 
@@ -14,15 +14,7 @@ public class Snake implements Cell{
         return startPosition;
     }
 
-    public void setStartPosition(int startPosition) {
-        this.startPosition = startPosition;
-    }
-
     public int getEndPosition() {
         return endPosition;
-    }
-
-    public void setEndPosition(int endPosition) {
-        this.endPosition = endPosition;
     }
 }

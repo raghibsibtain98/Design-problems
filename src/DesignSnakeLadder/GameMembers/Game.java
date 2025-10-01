@@ -1,14 +1,13 @@
-import GameMembers.Board;
-import GameMembers.Dice;
-import GameMembers.Player;
+package DesignSnakeLadder.GameMembers;
+
 import java.util.Queue;
 
 public class Game {
 
-    private Board board;
-    private Queue<Player> playersLine;
+    private final Board board;
+    private final Queue<Player> playersLine;
     private Boolean isWinnerChickenDinner;
-    private Dice dice;
+    private final Dice dice;
 
     public Game(Board board, Queue<Player> playersLine, Dice dice){
         isWinnerChickenDinner = Boolean.FALSE;
@@ -26,6 +25,7 @@ public class Game {
                 dice.rollDice();
                 tempCount += dice.getCurrentRollValue();
             }
+            assert currentPlayer != null;
             int newPosition = board.getNewPositionOnBoard(currentPlayer.getCurrentPosition(),tempCount);
             if(newPosition==board.getSize()){
                 isWinnerChickenDinner = Boolean.TRUE;

@@ -1,4 +1,4 @@
-package GameMembers;
+package DesignSnakeLadder.GameMembers;
 
 import java.util.Random;
 
@@ -7,7 +7,7 @@ public class Dice {
     private final int maxValue;
     private final int minValue;
     private int currentRollValue;
-    private Random random;
+    private final Random random;
 
     public Dice(int maxValue, int minValue) {
         this.maxValue = maxValue;
@@ -22,10 +22,6 @@ public class Dice {
 
     public int getMaxValue() {
         return maxValue;
-    }
-
-    public int getMinValue() {
-        return minValue;
     }
 
     public int getCurrentRollValue() {

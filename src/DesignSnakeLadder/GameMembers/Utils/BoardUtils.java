@@ -1,7 +1,7 @@
-package Utils;
+package DesignSnakeLadder.GameMembers.Utils;
 
-import GameMembers.BoardMembers.Ladder;
-import GameMembers.BoardMembers.Snake;
+import DesignSnakeLadder.GameMembers.BoardMembers.Ladder;
+import DesignSnakeLadder.GameMembers.BoardMembers.Snake;
 
 import java.util.ArrayList;
 import java.util.HashSet;

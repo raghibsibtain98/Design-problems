@@ -1,9 +1,9 @@
-package GameMembers;
+package DesignSnakeLadder.GameMembers;
 
 public class Player {
 
     private int currentPosition;
-    private String playerName;
+    private final String playerName;
 
     public Player(String playerName){
         this.currentPosition = 0;
